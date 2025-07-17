@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_a_text_to_translate_hint">Enter a text to translate</string>
+    <string name="translate">Translate</string>
+    <string name="copy">Copy</string>
+    <string name="close">Close</string>
+    <string name="play_loud">Play loud</string>
+    <string name="speech_recognition_is_not_available">Speech recognition is not available.</string>
+    <string name="listening">Listening...</string>
+    <string name="start_talking">Press record and start talking</string>
+</resources>

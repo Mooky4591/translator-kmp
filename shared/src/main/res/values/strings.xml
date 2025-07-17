@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="swap_languages">Swap Languages</string>
+    <string name="copied_to_clipboard">copied to clipboard</string>
+    <string name="history">History</string>
+    <string name="error_service_unavailable">Oops, an error happened. Please try again later.</string>
+    <string name="client_error">Oops, an error occurred. Please contact system admin.</string>
+    <string name="server_error">Oops, an error occurred. Please try again.</string>
+    <string name="unknown_error">Oops an unknown error occurred.</string>
+    <string name="record_audio">Record audio</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="apply">Apply</string>
+    <string name="record_again">Record again</string>
+</resources>
