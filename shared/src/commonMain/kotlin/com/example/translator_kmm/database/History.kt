@@ -10,5 +10,5 @@ data class History(
     val fromText: String,
     val toLanguageCode: String,
     val toText: String,
-    val timeStamp: Int
+    val timeStamp: Int? = null
 )

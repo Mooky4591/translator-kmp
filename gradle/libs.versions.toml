@@ -13,15 +13,16 @@ ksp = "1.9.23-1.0.19"
 kotlinDateTime = "0.5.0"
 hilt = "2.51.1"
 hiltNavigationCompose = "1.2.0"
-sqlDelight = "2.0.2"
 assertK = "0.26.1"
 turbine = "0.7.0"
 rules = "1.5.0"
 material3 = "1.2.1"
 room = "2.7.0-alpha01"
 sqlite = "2.5.0-SNAPSHOT"
+rulesVersion = "1.4.0"
 
 [libraries]
+rules = { module = "androidx.test:rules", version.ref = "rulesVersion" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 room-runtime-android = { module = "androidx.room:room-runtime-android", version.ref = "room" }
@@ -50,10 +51,6 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt"
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
 hilt-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
 hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
-sqldelight-android-driver = { module = "app.cash.sqldelight:android-driver", version.ref = "sqlDelight" }
-sqldelight-native-driver = { module = "app.cash.sqldelight:native-driver", version.ref = "sqlDelight" }
-sqldelight-coroutines-extensions = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqlDelight" }
-sqldelight-runtime = { module = "app.cash.sqldelight:runtime", version.ref = "sqlDelight" }
 assertk = { module = "com.willowtreeapps.assertk:assertk", version.ref = "assertK" }
 turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 test-runner = { module = "androidx.test:runner", version.ref = "testRunner" }

@@ -32,8 +32,6 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation(libs.bundles.ktor)
-                implementation(libs.sqldelight.runtime)
-                implementation(libs.sqldelight.coroutines.extensions)
                 implementation(libs.kotlin.date.time)
 
                 implementation(libs.room.runtime)
@@ -50,7 +48,6 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation(libs.ktor.android)
-                implementation(libs.sqldelight.android.driver)
             }
         }
         val iosX64Main by getting

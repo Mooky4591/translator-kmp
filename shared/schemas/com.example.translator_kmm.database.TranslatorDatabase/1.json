@@ -2,11 +2,11 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "3036444c926a8b1d8caae66d22f2c075",
+    "identityHash": "08114c67d470627ed4cfec37d1a84345",
     "entities": [
       {
         "tableName": "history",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `fromLanguageCode` TEXT NOT NULL, `fromText` TEXT NOT NULL, `toLanguageCode` TEXT NOT NULL, `toText` TEXT NOT NULL, `timeStamp` INTEGER NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `fromLanguageCode` TEXT NOT NULL, `fromText` TEXT NOT NULL, `toLanguageCode` TEXT NOT NULL, `toText` TEXT NOT NULL, `timeStamp` INTEGER)",
         "fields": [
           {
             "fieldPath": "id",
@@ -40,8 +40,7 @@
           {
             "fieldPath": "timeStamp",
             "columnName": "timeStamp",
-            "affinity": "INTEGER",
-            "notNull": true
+            "affinity": "INTEGER"
           }
         ],
         "primaryKey": {
@@ -54,7 +53,7 @@
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '3036444c926a8b1d8caae66d22f2c075')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '08114c67d470627ed4cfec37d1a84345')"
     ]
   }
 }

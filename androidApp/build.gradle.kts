@@ -69,9 +69,11 @@ dependencies {
     androidTestImplementation(libs.test.rule)
     androidTestImplementation(libs.junit)
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
+    androidTestImplementation(libs.rules)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     kspAndroidTest(libs.hilt.android.compiler)
     androidTestImplementation(libs.hilt.testing)
+    testImplementation(kotlin("test"))
 }
 
